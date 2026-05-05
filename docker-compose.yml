@@ -13,7 +13,7 @@ services:
       - --entrypoints.web.address=:80
       - --entrypoints.websecure.address=:443
       - --certificatesresolvers.le.acme.tlschallenge=true
-      - --certificatesresolvers.le.acme.email=tu@email.com
+      - --certificatesresolvers.le.acme.email=info.francescobianco@gmail.com
       - --certificatesresolvers.le.acme.storage=/acme/acme.json
     ports:
       - 80:80
