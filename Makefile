@@ -10,4 +10,4 @@ deploy: push
 	@hostrun alterloop update.sh
 
 server-logs:
-	@hostrun alterloop -c "cd /opt/traefik && docker compose logs -f"
+	@hostrun alterloop -c "cd /opt/traefik && docker compose logs traefik"
