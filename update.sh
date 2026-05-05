@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-[ ! -d "/opt/traefik" ] && git clone https://github.com/francescobianco/traefik
+[ ! -d "/opt/traefik" ] && git clone https://github.com/francescobianco/traefik /opt/traefik
 
 cd /opt/traefik
 
